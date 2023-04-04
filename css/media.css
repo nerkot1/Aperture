@@ -1,0 +1,135 @@
+@media (max-width : 1200px ){
+    .nav {
+        background-color: #181818;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+        position: absolute;
+        padding: 14px 20px;
+        padding-left: 0;
+        border-radius: 14px;
+        border: 2px solid white;
+        visibility: hidden;
+        transition: .25s linear;
+    }
+    .visible {
+        visibility: visible;
+        transition: .25s linear;
+    }
+    .nav__item {
+        display: block;
+        font-size: 18px;
+    }
+    .nav__item-business {
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .padding__media {
+        padding-bottom: 10px;
+    }
+    .menu {
+        visibility: visible;
+        cursor: pointer;
+        transition: .25s linear;
+    }
+    .close {
+        background: url(../image/close.png);
+        transition: .25s linear;
+    }
+    .block__tools-text-header-p {
+        width: 100%;
+    }
+    .clients-img img {
+        margin: 0 20px;
+    }
+    .background__white {
+        width: 200px;
+    }
+}
+@media (max-width : 850px) {
+    .clients-img {
+        display: block;
+    }
+    .background__white {
+        width: 100%;
+    }
+    .Subscribe {
+        display: block;
+    }
+    .Subscipe__block {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .Subscripe__block-text  {
+        font-size: 18px;
+    }
+    .footer {
+        padding: 100px 60px ;
+    }
+}
+@media (max-width : 600px) {
+    .clients-img {
+        padding-top: 40px;
+    }
+    .clients-text {
+        padding-top: 50px;
+    }
+    .header__text-2 {
+        font-size: 33px;
+    }
+    .header__text-3 {
+        width: 100%;
+    }
+    .position {
+        right: 0;
+        left: 0;
+    }
+    .block__img-mappa {
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        margin-right: 15px;
+    }
+    .imgs__block {
+        padding: 25px;
+    }
+    .block__tools-position {
+        right: 10px;
+        text-align: right;
+    }
+    .block__tools-img-p {
+        max-width: 298px;
+    }
+    .position__1 {
+        visibility: hidden;
+    }
+    .block__tools-text-position {
+        width: 98%;
+        position: absolute;
+        z-index: 2;
+    }
+    .block__tools-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Subscripe__block-text  {
+        font-size: 14px;
+    }
+    .footer {
+        padding: 100px 20px ;
+    }
+    .footer__svg-item {
+        margin-left: 10px;
+    }
+    .uls {
+       width: 100%;
+       justify-content: center;
+    }
+    .footer__top {
+        display: block;
+    }
+    .footer__block {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
